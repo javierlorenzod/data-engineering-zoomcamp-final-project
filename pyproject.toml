@@ -1,0 +1,23 @@
+[tool.pdm]
+
+[project]
+name = "data-engineering-zoomcamp-final-project"
+version = "0.1.0"
+description = "Final project for the course on Data Engineering, by Zoomcamp"
+authors = [
+    {name = "Javier Lorenzo Díaz", email = "6094231+javierlorenzod@users.noreply.github.com"},
+]
+dependencies = [
+    "prefect>=2.10.2",
+    "pandas>=2.0.0",
+    "prefect-gcp>=0.4.0",
+    "polars>=0.17.0",
+    "connectorx>=0.3.1",
+]
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "AGPL-3.0-only"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
